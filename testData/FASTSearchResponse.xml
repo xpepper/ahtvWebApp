@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<COMPOSITE-RESULTPAGE>
+
+	<SEGMENT>
+	  <RESULTPAGE>
+		    <PARAM source="epg" type="summary" encoding="ISO-8859-1" />    
+				<RESULTSET TOTALHITS="123" TIME="0.1436"/>
+		</RESULTPAGE>
+	</SEGMENT>
+
+	<SEGMENT>
+	  <RESULTPAGE>
+			<PARAM source="vod" type="listing" encoding="ISO-8859-1" offset="0" hits="1" />    
+			<RESULTSET FIRSTHIT="1" LASTHIT="1" HITS="1" TOTALHITS="456" TIME="0.1058">
+				<HIT>
+				<ASSETID>50078428</ASSETID>
+				<TITLE>Scrivimi una canzone</TITLE>
+				<HD>N</HD>
+				<PVR>N</PVR>
+				<CATEGORIZATIONOMP>Sentimentale</CATEGORIZATIONOMP>
+				<CATEGORIZATION>Poltronissima</CATEGORIZATION>
+				<SHORTDESCRIPTION>Alex Fletcher, popstar destinata ad un lento ed inesorabile declino, riceve una proposta che potrebbe rilanciarlo nello star system discografico. A questo punto serve solo un&amp;#8217;incantevole autrice in grado di scrivere una hit di successo&amp;#8230;</SHORTDESCRIPTION>
+				<LONGDESCRIPTION>Alex Fletcher, popstar destinata ad un lento ed inesorabile declino, riceve una proposta che potrebbe rilanciarlo nello star system discografico. A questo punto serve solo un&amp;#8217;incantevole autrice in grado di scrivere una hit di successo&amp;#8230;</LONGDESCRIPTION>
+				<RATING>Verde</RATING>
+				<STARTDATE>2007-10-19T22:00:00Z</STARTDATE>
+				<ENDDATE>2008-01-19T22:59:00Z</ENDDATE>
+				<TRAILERFILE>mms://videoteca.cdn.interbusiness.it/DAM/portale_ahtv/trailer/50078428.wmv</TRAILERFILE>
+				<PICTUREFILE>http://images.alice.it/ahtv/locandine/50078428.jpg</PICTUREFILE>
+				<DURATION>100</DURATION>
+				<GENRE>Sentimentale</GENRE>
+				<PRICE>4</PRICE>
+				<ABBONAMENTO>0</ABBONAMENTO>
+				<ACTOR>Brad Garrett|Drew Barrymore|Hugh  Grant|Kristen Johnston</ACTOR>
+				<DIRECTOR>Marc Lawrence</DIRECTOR>
+				<FILMNEWS>Y</FILMNEWS>
+				<DATA_INSERT/>
+				<INIZIALE>S</INIZIALE>
+				<RELEASE_YEAR>2006</RELEASE_YEAR>
+				<URL>/VOD/scheda_film.html?assetId=50078428</URL>
+				</HIT>
+			</RESULTSET>
+		</RESULTPAGE>
+	</SEGMENT>
+
+	<SEGMENT>
+	  <RESULTPAGE>
+			<PARAM source="edit" type="summary" encoding="ISO-8859-1" />    
+			<RESULTSET TOTALHITS="789" TIME="0.1173"/>
+		</RESULTPAGE>
+	</SEGMENT>
+</COMPOSITE-RESULTPAGE> 

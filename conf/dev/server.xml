@@ -1,0 +1,122 @@
+<Server port="8005" shutdown="SHUTDOWN">
+
+	<Service name="Catalina">
+
+		<Connector address="127.0.0.1" port="8009" backlog="32768" bufferSize="262144" connectionTimeout="30" maxSpareThreads="256"
+			maxThreads="4096" minSpareThreads="256" tcpNoDelay="true" tomcatAuthentication="false" URIEncoding="ISO-8859-1" enableLookups="false"
+			protocol="AJP/1.3" />
+
+		<Engine name="Catalina" defaultHost="127.0.0.1">
+
+			<Host name="alicehometv2007.devsvil.alice.it" appBase="/store1/www-dev/alicehometv2007.devsvil.alice.it/doc_root/webapps"
+				unpackWARs="false" autoDeploy="false" deployOnStartup="false" xmlValidation="false" xmlNamespaceAware="false">
+
+				<Context path="/ahtv" docBase="/store1/www-dev/alicehometv2007.devsvil.alice.it/doc_root/webapps/ahtv"
+					workDir="/store1/www-dev/alicehometv2007.devsvil.alice.it/doc_root/webapps/ahtv/WEB-INF/work" unpackWARs="true" autoDeploy="true"
+					deployOnStartup="true" processTlds="false" xmlValidation="false" xmlNamespaceAware="false" debug="0" reloadable="false">
+
+					<WatchedResource>WEB-INF/web.xml</WatchedResource>
+					<Manager pathname="" />
+
+				</Context>
+			</Host>
+
+			<Host name="alicehometv2008.devsvil.alice.it" appBase="/store1/www-dev/alicehometv2008.devsvil.alice.it/doc_root/webapps"
+				unpackWARs="false" autoDeploy="false" deployOnStartup="false" xmlValidation="false" xmlNamespaceAware="false">
+
+				<Context path="/ahtv" docBase="/store1/www-dev/alicehometv2008.devsvil.alice.it/doc_root/webapps/ahtv"
+					workDir="/store1/www-dev/alicehometv2008.devsvil.alice.it/doc_root/webapps/ahtv/WEB-INF/work" unpackWARs="true" autoDeploy="true"
+					deployOnStartup="false" swallowOutput="true" processTlds="false" xmlValidation="false" xmlNamespaceAware="false" debug="0" reloadable="false">
+
+					<WatchedResource>WEB-INF/web.xml</WatchedResource>
+					<Manager pathname="" />
+					
+					<Resource name="jdbc/ahtvDataSource" 
+						auth="Container"
+						type="javax.sql.DataSource" 
+						driverClassName="oracle.jdbc.OracleDriver"
+						url="jdbc:oracle:thin:@dev-db-oracle10.bko.vtin.net:1521:dbdev10"
+						username="db_ahtv" 
+						password="db_ahtv" 
+						initialSize="0" 
+						maxActive="40" 
+						maxIdle="20"
+						minIdle="0"
+						maxWait="10000"
+						timeBetweenEvictionRunsMillis="60000"
+						minEvictableIdleTimeMillis="600000"
+						numTestsPerEvictionRun="3"
+						accessToUnderlyingConnectionAllowed="true"/> 
+						
+				</Context>
+
+				<Context path="/aa" docBase="/store1/www-dev/alicehometv2008.devsvil.alice.it/doc_root/webapps/aa"
+					workDir="/store1/www-dev/alicehometv2008.devsvil.alice.it/doc_root/webapps/aa/WEB-INF/work" unpackWARs="true" autoDeploy="true"
+					deployOnStartup="true" processTlds="false" xmlValidation="false" xmlNamespaceAware="false" debug="0" reloadable="false">
+
+					<WatchedResource>WEB-INF/web.xml</WatchedResource>
+					<Manager pathname="" />
+				</Context>
+
+				<Context path="/AHTV_WS" docBase="/store1/www-dev/alicehometv2008.devsvil.alice.it/doc_root/webapps/AHTV_WS"
+					workDir="/store1/www-dev/alicehometv2008.devsvil.alice.it/doc_root/webapps/AHTV_WS/WEB-INF/work" unpackWARs="true" autoDeploy="true"
+					deployOnStartup="true" processTlds="false" xmlValidation="false" xmlNamespaceAware="false" debug="0" reloadable="false">
+
+					<WatchedResource>WEB-INF/web.xml</WatchedResource>
+					<Manager pathname="" />
+				</Context>
+
+				<Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" prefix="localhost_access_log." suffix=".txt"
+					pattern="common" resolveHosts="false" />
+			</Host>
+
+			<Host name="alicehometv.alice.mobi" appBase="/store1/www-dev/alicehometv.alice.mobi/doc_root/webapps" unpackWARs="true"
+				autoDeploy="true" deployOnStartup="true" xmlValidation="false" xmlNamespaceAware="false">
+
+				<Context path="/ahtv" docBase="/store1/www-dev/alicehometv.alice.mobi/doc_root/webapps/ahtv"
+					workDir="/store1/www-dev/alicehometv.alice.mobi/doc_root/webapps/ahtv/WEB-INF/work" unpackWARs="true" autoDeploy="true"
+					deployOnStartup="true" processTlds="true" xmlValidation="false" xmlNamespaceAware="false" debug="1" reloadable="false">
+					<Manager pathname="" />
+
+				</Context>
+
+				<Context path="/ahtv_old" docBase="/store1/www-dev/alicehometv.alice.mobi/doc_root/webapps/ahtv_old"
+					workDir="/store1/www-dev/alicehometv.alice.mobi/doc_root/webapps/ahtv_old/WEB-INF/work" unpackWARs="true" autoDeploy="true"
+					deployOnStartup="true" processTlds="true" xmlValidation="false" xmlNamespaceAware="false" debug="1" reloadable="false">
+					<Manager pathname="" />
+
+				</Context>
+
+			</Host>
+			<Host name="alicehometv2007.devsvil.alice.mobi" appBase="/store1/www-dev/alicehometv2007.devsvil.alice.mobi/doc_root/webapps"
+				unpackWARs="true" autoDeploy="true" deployOnStartup="true" xmlValidation="false" xmlNamespaceAware="false">
+
+				<Context path="/ahtv" docBase="/store1/www-dev/alicehometv2007.devsvil.alice.mobi/doc_root/webapps/ahtv"
+					workDir="/store1/www-dev/alicehometv2007.devsvil.alice.mobi/doc_root/webapps/ahtv/WEB-INF/work" unpackWARs="true" autoDeploy="true"
+					deployOnStartup="true" processTlds="true" xmlValidation="false" xmlNamespaceAware="false" debug="1" reloadable="false">
+
+					<WatchedResource>WEB-INF/web.xml</WatchedResource>
+					<Manager pathname="" />
+
+				</Context>
+
+			</Host>
+
+			<Host name="alicehometv2007.collaudo.alice.mobi" appBase="/store1/www-dev/alicehometv2007.coll.alice.mobi/doc_root/webapps"
+				unpackWARs="true" autoDeploy="true" deployOnStartup="true" xmlValidation="false" xmlNamespaceAware="false">
+                               <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" prefix="localhost_access_collaudo_ahtv_mobi_log." suffix=".txt"                                        pattern="common" resolveHosts="false" />
+
+
+
+				<Context path="/ahtv" docBase="/store1/www-dev/alicehometv2007.coll.alice.mobi/doc_root/webapps/ahtv"
+					workDir="/store1/www-dev/alicehometv2007.coll.alice.mobi/doc_root/webapps/ahtv/WEB-INF/work" unpackWARs="true" autoDeploy="true"
+					deployOnStartup="true" processTlds="true" xmlValidation="false" xmlNamespaceAware="false" debug="1" reloadable="false">
+
+					<WatchedResource>WEB-INF/web.xml</WatchedResource>
+					<Manager pathname="" />
+
+				</Context>
+			</Host>
+		</Engine>
+	</Service>
+</Server>

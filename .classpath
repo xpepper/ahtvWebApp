@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="sources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/log4j-1.2.15.jar" sourcepath="WEB-INF/lib/log4j-1.2.15-src.zip"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/commons-httpclient-3.1.jar" sourcepath="WEB-INF/lib/commons-httpclient-3.1-src.zip"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/commons-codec-1.3.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/commons-logging-1.1.jar" sourcepath="WEB-INF/lib/commons-logging-1.1-ide.zip"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/commons-lang-2.3.jar" sourcepath="WEB-INF/lib/commons-lang-2.3-src.zip"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/xsltfilter.jar"/>
+	<classpathentry kind="lib" path="lib/cglib-nodep-2.1_3.jar" sourcepath="lib/cglib-2.1_3-src.zip"/>
+	<classpathentry kind="lib" path="lib/hamcrest-core-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/hamcrest-library-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/jakarta-oro-2.0.8.jar"/>
+	<classpathentry kind="lib" path="lib/jdom.jar"/>
+	<classpathentry kind="lib" path="lib/jmock-2.2.0.jar"/>
+	<classpathentry kind="lib" path="lib/jmock-junit4-2.2.0.jar"/>
+	<classpathentry kind="lib" path="lib/jmock-legacy-2.2.0.jar"/>
+	<classpathentry kind="lib" path="lib/mockrunner-servlet.jar"/>
+	<classpathentry kind="lib" path="lib/mockrunner-tag.jar"/>
+	<classpathentry kind="lib" path="lib/nekohtml.jar"/>
+	<classpathentry kind="lib" path="lib/objenesis-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/spring-core.jar"/>
+	<classpathentry kind="lib" path="lib/spring-mock.jar"/>
+	<classpathentry kind="lib" path="lib/commons-io-1.3.2.jar" sourcepath="lib/commons-io-1.3.2-sources.zip"/>
+	<classpathentry kind="lib" path="lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="lib/xmlunit-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="lib/el-api.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/aa-constants-1.1.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/aa-tracking-filter-1.1.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/aa-types-1.3.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/alice-commons-1.4.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/jtm-1.0.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/xpp3-1.1.3.8.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/jettison-1.0-RC1.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/commons-collections-3.2.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/jcaptcha-all-1.0-RC6.jar" sourcepath="WEB-INF/lib/jcaptcha-all-1.0-RC6.src.zip"/>
+	<classpathentry kind="lib" path="lib/xercesImpl.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/ezmorph-1.0.3.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/json-lib-2.1-jdk15.jar" sourcepath="WEB-INF/lib/json-lib-2.1-jdk15-sources.zip"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/commons-beanutils-1.7.0.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/aa-cookies-1.9.jar"/>
+	<classpathentry kind="lib" path="lib/tomcat-dbcp.jar" sourcepath="lib/commons-dbcp-1.2.2-src.zip"/>
+	<classpathentry kind="lib" path="lib/ojdbc6.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/aa-filters-1.5.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/aa-sandbox-3.1.jar"/>
+	<classpathentry kind="lib" path="lib/fest-util-0.3.jar"/>
+	<classpathentry kind="lib" path="lib/fest-assert-0.9.1.jar" sourcepath="lib/fest-assert-0.9.1-sources.zip"/>
+	<classpathentry kind="con" path="org.codehaus.xfire.eclipse.XFIRE_LIBRARY"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/xstream-1.2.2.jar"/>
+	<classpathentry kind="output" path="WEB-INF/classes"/>
+</classpath>

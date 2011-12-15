@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+    </head>
+    <body>
+        <h1>JSP Page</h1>
+        <form action="/ahtv/PurchaseList" method="POST"> 
+            Mese Inizio <input type="text" name="meseStart" size="2" maxlength="2" value="12"><br />
+            Anno Inizio: <input type="text" name="annoStart" size="4" maxlength="4" value="2007"><br />
+            Mese Fine<input type="text" name="meseEnd" size="2" maxlength="2" value="12"><br />
+            Anno Fine: <input type="text" name="annoEnd" size="4" maxlength="4" value="2007"><br />
+            <br /><br />
+            <input type="submit" value="Submit">
+        </form> 
+        <form action="/ahtv/PurchaseList" method="GET">
+            GET Mese Inizio <input type="text" name="meseStart" size="2" maxlength="2" value="12"><br />
+            GET Anno Inizio: <input type="text" name="annoStart" size="4" maxlength="4" value="2007"><br />
+            GET Mese Fine <input type="text" name="meseEnd" size="2" maxlength="2" value="12"><br />
+            GET Anno Fine <input type="text" name="annoEnd" size="4" maxlength="4" value="2007">
+            <br /><br />
+            <input type="submit" value="Submit">
+        </form> 
+
+          <form action="/AHTV_WS/GetIPTVServlet" method="GET">
+            GET TEST <input type="submit" value="Submit">
+        </form> 
+    </body>
+</html>

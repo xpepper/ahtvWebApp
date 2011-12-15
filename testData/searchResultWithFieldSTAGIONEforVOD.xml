@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<RESULTS>
+	<EPG TOTAL="50"/>
+	
+	<VOD TOTAL="1">
+	<HIT>
+	<ASSETID>50079853</ASSETID>
+	<TITLE>Cold Case </TITLE>
+	<HD>N</HD>
+	<PVR>N</PVR>
+	<CATEGORIZATIONOMP>Intrattenimento</CATEGORIZATIONOMP>
+	<CATEGORIZATION>Serie TV</CATEGORIZATION>
+	<SHORTDESCRIPTION>Lilly Rush, detective della Squadra Omicidi di Philadelphia, sta indagando su un triplice omicidio. Le indagini la portano a riaprire il caso di un'adolescente trovata morta in un campo da tennis dopo una festa organizzata da una famiglia assai influente.</SHORTDESCRIPTION>
+	<LONGDESCRIPTION>Lilly Rush, detective della Squadra Omicidi di Philadelphia, sta indagando su un triplice omicidio. Le indagini la portano a riaprire il caso di un'adolescente trovata morta in un campo da tennis dopo una festa organizzata da una famiglia assai influente.</LONGDESCRIPTION>
+	<RATING>Giallo</RATING>
+	<STARTDATE>2007-10-08T08:00:00Z</STARTDATE>
+	<ENDDATE>2007-12-07T09:00:00Z</ENDDATE>
+	<TRAILERFILE>mms://videoteca.cdn.interbusiness.it/DAM/portale_ahtv/trailer/50079853.wmv</TRAILERFILE>
+	<PICTUREFILE>http://images.alice.it/ahtv/locandine/50079853.jpg</PICTUREFILE>
+	<DURATION/>
+	<GENRE/>
+	<PRICE>0</PRICE>
+	<ABBONAMENTO>0</ABBONAMENTO>
+	<DIRECTOR>Mark Pellington</DIRECTOR>
+	<FILMNEWS>N</FILMNEWS>
+	<DATA_INSERT/>
+	<INIZIALE>C</INIZIALE>
+	<RELEASE_YEAR>2003</RELEASE_YEAR>
+	<URL>/VOD/scheda_serie_tv.html?assetId=50079853</URL>
+	<STAGIONE>1</STAGIONE>
+	</HIT>
+	</VOD>
+	
+	<EDIT TOTAL=""/>
+</RESULTS>

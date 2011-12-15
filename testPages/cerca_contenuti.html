@@ -1,0 +1,55 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+</head>
+<body>
+	<form action="/ahtv/servlet/SearchServlet">
+	<!-- <form action="http://alicehometv2007.devsvil.alice.it/ahtv/servlet/SearchServlet">  -->
+		<input name="qs" type="text" size="20" maxlength="60">
+		<input type="submit" value="CERCA">
+		<fieldset>
+			<legend>tipi</legend>
+			<input type="checkbox" name="source" value="epg"/> epg<br>
+			<input type="checkbox" name="source" value="vod"/> vod<br>
+			<input type="checkbox" name="source" value="edit"/> edit
+		</fieldset>
+		<fieldset>
+			<legend>Ricerca Avanzata</legend>
+	        Livello PC<BR>
+	        <select name="livellopc">
+	          <option selected></option>
+	          <option>Verde</option>
+	          <option>Giallo</option>
+	          <option>Rosso</option>
+	        </select>
+			<P>
+			Genere<BR>
+	        <select name="genere">
+	          <option selected></option>
+	          <option>Azione</option>
+	          <option>Drammatico</option>
+	          <option>Commedia</option>
+	        </select>
+	        <P>
+			Area Tematica<BR>
+	        <select name="area">
+	          <option selected></option>
+	          <option>Sport</option>
+	          <option>Intrattenimento</option>
+	          <option>Cinema</option>
+	        </select>		
+	        <P>
+			Categoria<BR>
+			<select name="categoria">
+				<option selected></option>
+				<option>Poltronissima</option>
+				<option>Multisala</option>
+				<option>SerieTV</option>
+			</select>
+	        <P>
+			Giorno (formato YYYY-MM-DD) <BR>
+			<input name="day" type="text" size="10" maxlength="10">			
+		</fieldset>        		
+	</form>
+</body>
+</html>

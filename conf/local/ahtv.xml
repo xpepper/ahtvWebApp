@@ -1,0 +1,18 @@
+<Context path="/ahtv"
+     docBase="C:/apps/eclipse/workspace/ahtvWebApp" 
+     debug="0" 
+     reloadable="true" >
+     
+<Resource name="jdbc/ahtvDataSource" 
+	auth="Container"
+	type="javax.sql.DataSource" 
+	driverClassName="oracle.jdbc.OracleDriver"
+	url="jdbc:oracle:thin:@dev-db-oracle10.bko.vtin.net:1521:dbdev10"
+	username="db_ahtv" 
+	password="db_ahtv" 
+	maxActive="10" 
+	maxIdle="5"
+	maxWait="-1"
+	accessToUnderlyingConnectionAllowed="true"/>
+	 
+</Context>

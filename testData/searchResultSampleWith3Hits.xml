@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<RESULTS>
+<EPG TOTAL="8063">
+<HIT>
+<ASSETID>50939997</ASSETID>
+<IDPLAYLIST>31126</IDPLAYLIST>
+<TITLE>any EPG title</TITLE>
+<HD>N</HD>
+<PVR>N</PVR>
+<CATEGORIZATION>Intrattenimento</CATEGORIZATION>
+<CATEGORYOMP>DVBT</CATEGORYOMP>
+<CATEGORYMSTV/>
+<SHORTDESCRIPTION>Quiz telefonico da Piazza Italia, la piazza piu' bella d'italia</SHORTDESCRIPTION>
+<LONGDESCRIPTION>Quiz telefonico con in palio sostanziosi premi.</LONGDESCRIPTION>
+<RATING>Verde</RATING>
+<PUBLISHING/>
+<STARTDATE>2007-11-01 01:50</STARTDATE>
+<ENDDATE>2007-11-01 02:50</ENDDATE>
+<CHANNEL_TYPE>ENTRAMBE</CHANNEL_TYPE>
+<CHANNEL_NAME>ITALIA1</CHANNEL_NAME>
+<DATEFROM_SCHEDULE>2007-10-31T23:00:00Z</DATEFROM_SCHEDULE>
+<DATATO_SCHEDULE>2007-11-01T23:55:00Z</DATATO_SCHEDULE>
+<DURATION>60</DURATION>
+<GENRE/>
+<PRICE>0</PRICE>
+<CHANNELID>106</CHANNELID>
+<NOMECANALE>Italia 1</NOMECANALE>
+<URL>/GuidaTV/index.html?date=2007-11-01&amp;time=0150&amp;tab=0&amp;assetId=50535042&amp;channelid=106</URL>
+<ICONA>/img/canali/italia_1.png</ICONA>
+<INIZIALE>T</INIZIALE>
+</HIT>
+</EPG>
+<VOD TOTAL="187">
+<HIT>
+<ASSETID>12345</ASSETID>
+<TITLE>any VOD title</TITLE>
+<HD>N</HD>
+<PVR>N</PVR>
+<CATEGORIZATIONOMP>Intrattenimento</CATEGORIZATIONOMP>
+<CATEGORIZATION>Serie TV</CATEGORIZATION>
+<SHORTDESCRIPTION>Dopo la morte di Caleb, il problema di Kirsten con l'alcol è diventato ingestibile e così Sandy accompagna la moglie in un centro per disintossicarla. Intanto Ryan viene a sapere della tentata violenza di Trey su Marissa.</SHORTDESCRIPTION>
+<LONGDESCRIPTION>Dopo la morte di Caleb, il problema di Kirsten con l'alcol è diventato ingestibile e così Sandy accompagna la moglie in un centro per disintossicarla. Intanto Ryan viene a sapere della tentata violenza di Trey su Marissa.</LONGDESCRIPTION>
+<RATING>Giallo</RATING>
+<STARTDATE>2007-10-22T08:00:00Z</STARTDATE>
+<ENDDATE>2007-11-30T09:00:00Z</ENDDATE>
+<TRAILERFILE>mms://videoteca.cdn.interbusiness.it/DAM/portale_ahtv/trailer/10001813.wmv</TRAILERFILE>
+<PICTUREFILE>http://images.alice.it/ahtv/locandine/10001813.jpg</PICTUREFILE>
+<DURATION>120</DURATION>
+<GENRE>Azione</GENRE>
+<PRICE>0</PRICE>
+<ABBONAMENTO>0</ABBONAMENTO>
+<ACTOR>Adam Brody</ACTOR>
+<DIRECTOR>Peyton Reed</DIRECTOR>
+<FILMNEWS>N</FILMNEWS>
+<DATA_INSERT/>
+<INIZIALE>T</INIZIALE>
+<RELEASE_YEAR>2003</RELEASE_YEAR>
+<URL>/VOD/scheda_serie_tv.html?assetId=12345</URL>
+</HIT>
+</VOD>
+<EDIT TOTAL="35">
+<HIT>
+<ID_EDITORIALE>999991</ID_EDITORIALE>
+<CANALE>Installazione istruzioni</CANALE>
+<TESTO/>
+<TITLE>any CMS title</TITLE>
+<SOTTOTITOLO/>
+<TIMESTAMP_PUBBLICAZIONE>2007-10-25T00:00:00Z</TIMESTAMP_PUBBLICAZIONE>
+<PATH_IMMAGINE/>
+<URL>/Installazione/index.html</URL>
+<SOMMARIO>Mettiti comodo! Un tecnico verr&amp;agrave; a casa tua e provveder&amp;agrave; ad installare il decoder!</SOMMARIO>
+<CATEGORIE>Installazione istruzioni</CATEGORIE>
+<KEYWORD/>
+<DATEINSERT>2007-10-30T00:00:00Z</DATEINSERT>
+<INIZIALE>A</INIZIALE>
+</HIT>
+</EDIT>
+</RESULTS>
